@@ -21,6 +21,42 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    "Tennis Club": {
+        "description": "Learn tennis skills and participate in friendly matches",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 16,
+        "participants": ["alex@mergington.edu"]
+        },
+        "Basketball Team": {
+        "description": "Competitive basketball training and games",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu", "marcus@mergington.edu"]
+        },
+        "Art Club": {
+        "description": "Explore painting, drawing, and mixed media techniques",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["isabella@mergington.edu"]
+        },
+        "Drama Club": {
+        "description": "Perform in theatrical productions and develop acting skills",
+        "schedule": "Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["grace@mergington.edu", "lucas@mergington.edu"]
+        },
+        "Debate Team": {
+        "description": "Develop critical thinking and public speaking through competitive debate",
+        "schedule": "Mondays, 3:30 PM - 4:30 PM",
+        "max_participants": 12,
+        "participants": ["aaron@mergington.edu"]
+        },
+        "Science Club": {
+        "description": "Conduct experiments and explore advanced scientific concepts",
+        "schedule": "Fridays, 3:30 PM - 4:30 PM",
+        "max_participants": 15,
+        "participants": ["nina@mergington.edu", "victor@mergington.edu"]
+        },
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
